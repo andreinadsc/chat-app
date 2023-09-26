@@ -22,7 +22,7 @@ const Authentication = ({ handleChange, type, title }) => {
 
     const { isLoading, error, sendRequest } = useHttp();
     const { formInputs, dispatch } = useForm(type);
-    const { setSession, token } = useContext(ChatContext);
+    const { setSession, user } = useContext(ChatContext);
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -50,7 +50,10 @@ const Authentication = ({ handleChange, type, title }) => {
             sendRequest(
                 {
                     url: 'user/logout',
-                    token
+                    method: 'POST',
+                    body: {
+                        userId: user._id
+                    }
                 }
             );
             setSession();
