@@ -1,3 +1,10 @@
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
 # Logs
 logs
 *.log
@@ -128,3 +135,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+package-lock.json

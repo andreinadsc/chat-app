@@ -1,0 +1,9 @@
+.wrapForm {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 1rem 0;
+}
+.wrapText {
+    width: 100%;
+}

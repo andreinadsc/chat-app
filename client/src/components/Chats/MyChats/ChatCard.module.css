@@ -1,0 +1,25 @@
+.card {
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    padding: 2rem;
+    margin: 1rem 1rem 0;
+}
+.container {
+    position: relative;
+}
+
+.title {
+    padding: 1rem;
+}
+
+.icon {
+    position: absolute;
+    top: 15%;
+    left: 98%;
+}
+
+.message {
+    display: flex;
+    padding: 0 1rem;
+}

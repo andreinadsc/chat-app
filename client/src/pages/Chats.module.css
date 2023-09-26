@@ -1,0 +1,15 @@
+.chatsContainer {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.chatsContainerMobile {
+    padding-top: 1rem;
+    margin: 0 1rem;
+}
+
+.tablet {
+    padding-top: 1rem;
+}
