@@ -1,3 +1,8 @@
 [[redirects]]
-    from = "/"
-    to = "subdirectory/"
+  from = "/*"
+  to = "/index.html"
+  status = 200
+[build]
+    base = "client/foo"
+    publish = "storyboo-static/"
+    command = "yarn storybooy-build"
