@@ -3,6 +3,6 @@
   to = "/index.html"
   status = 200
 [build]
-    base = "client/foo"
-    publish = "storyboo-static/"
-    command = "yarn storybooy-build"
+    base = "client/"
+    publish = "client/public/"
+    command = "cd client && npm run build"
