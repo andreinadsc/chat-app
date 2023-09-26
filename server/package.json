@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node server/app.js",
         "server": "nodemon server/app.js",
-        "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix ../client && npm run build --prefix ../client"    
+        "build": "npm i"    
     },
     "keywords": [],
     "author": "",
