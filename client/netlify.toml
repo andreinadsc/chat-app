@@ -4,5 +4,5 @@
   status = 200
 [build]
     base = "client/"
-    publish = "client/public/"
+    publish = "public/"
     command = "npm run build"
