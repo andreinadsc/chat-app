@@ -1,5 +1,9 @@
 import { io } from 'socket.io-client';
 
-const URL = 'https://chat-app-nbgl.onrender.com';
+const URL = 'https://chat-app-nbgl.onrender.com'
 
-export const socket = io(URL);
+export const socket = io(URL, {
+    extraHeaders: {
+        'Access-Control-Allow-Origin': '*'
+    }
+});
