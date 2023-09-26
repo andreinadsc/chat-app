@@ -8,7 +8,7 @@
   <h3 align="center">Chatterland</h3>
   <p align="center">
     <br />
-    <a href="">View Demo</a>
+    <a href="https://chat-app-1993.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/andreinadsc/chat-app/issues">Report Bug</a>
   </p>
