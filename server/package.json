@@ -4,8 +4,8 @@
     "description": "Section 28 - Working with GraphQL - Backend - Retry - NodeJS - The Complete Guide",
     "main": "app.js",
     "scripts": {
-        "start": "node server/app.js",
-        "server": "nodemon server/app.js",
+        "start": "node app.js",
+        "server": "nodemon app.js",
         "build": "npm i"    
     },
     "keywords": [],
