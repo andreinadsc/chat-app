@@ -4,7 +4,7 @@
 <br />
 <div align="center">
 
-  <img src="public/logo.png" alt="Logo" width="80" height="80" />
+  <img src="./client/public/logo.png" alt="Logo" width="80" height="80" />
   <h3 align="center">Chatterland</h3>
   <p align="center">
     <br />
@@ -34,7 +34,7 @@
 
 ## About The Project
 
-![screenshot](resources/screenshot-1.png)
+![screenshot](./client/public/screenshot-1.png)
 A simple math game with with vanilla js
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -61,11 +61,11 @@ A simple math game with with vanilla js
 ## Getting Started
 Chatterland is a Full Stack Chatting App. Uses Socket.io for real time communication and stores details in a Mongo  Database.
 
-![screenshot](resources/screenshot-2.png)
-![screenshot](resources/screenshot-3.png)
-![screenshot](resources/screenshot-4.png)
-![screenshot](resources/screenshot-5.png)
-![screenshot](resources/screenshot-6.png)
+![screenshot](./client/public/screenshot-2.png)
+![screenshot](./client/public/screenshot-3.png)
+![screenshot](./client/public/screenshot-4.png)
+![screenshot](./client/public/screenshot-5.png)
+![screenshot](./client/public/screenshot-6.png)
 
 <!-- CONTACT -->
 ## Contact
