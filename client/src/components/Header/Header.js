@@ -113,7 +113,7 @@ const Header = ({ handlerNotificationClick }) => {
                             </Menu>
                             <Button onClick={handleMenuOpen} endIcon={<ArrowDropDown />}>
                                 <Avatar alt={user.name}
-                                    src={`http://localhost:8080/${user.picture}`}
+                                    src={`https://chat-app-nbgl.onrender.com/${user.picture}`}
                                     sx={{ width: 50, height: 50 }}
                                 />
                             </Button>

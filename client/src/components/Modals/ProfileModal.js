@@ -95,7 +95,7 @@ const ProfileModal = ({ myProfile, children }) => {
                                 component='img'
                                 height={250}
                                 width={250}
-                                image={`http://localhost:8080/${mainPicture}`}
+                                image={`https://chat-app-nbgl.onrender.com/${mainPicture}`}
                                 alt='profile pic'
                             />
                             {
@@ -126,7 +126,7 @@ const ProfileModal = ({ myProfile, children }) => {
                                             {
                                                 modalUser.map(user => (
                                                     <Chip key={user._id}
-                                                        avatar={<Avatar alt={user.name} src={`http://localhost:8080/${user.picture}`} />}
+                                                        avatar={<Avatar alt={user.name} src={`https://chat-app-nbgl.onrender.com/${user.picture}`} />}
                                                         label={user._id === currentChat?.groupAdmin?._id ? `${user.name} (Admin)` : user.name}
                                                         variant='outlined'
                                                     />

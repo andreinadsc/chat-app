@@ -145,7 +145,7 @@ const UpdateGroupModal = () => {
                                     component='img'
                                     height={250}
                                     width={250}
-                                    image={`http://localhost:8080/${currentChat.groupPicture}`}
+                                    image={`https://chat-app-nbgl.onrender.com/${currentChat.groupPicture}`}
                                     alt={currentChat.chatName}
                                 />
                                 <ChildModal handleUpdate={handleUpdateFields} picture={currentChat.groupPicture} id='picture' type='file' func={setGroupPicture} title='Update Group Icon' />
@@ -171,7 +171,7 @@ const UpdateGroupModal = () => {
                                         return (
                                             options.map((option, index) =>
                                                 <Chip key={option._id}
-                                                    avatar={<Avatar alt={option.name} src={`http://localhost:8080/${option.picture}`} />}
+                                                    avatar={<Avatar alt={option.name} src={`https://chat-app-nbgl.onrender.com/${option.picture}`} />}
                                                     label={option._id === currentChat.groupAdmin._id ? `${option.name} (Admin)` : option.name}
                                                     variant='outlined'
                                                     {...getTagProps({ index })}
@@ -182,7 +182,7 @@ const UpdateGroupModal = () => {
                                     }}
                                     renderOption={(props, option) => (
                                         <Chip key={option._id}
-                                            avatar={<Avatar alt={option.name} src={`http://localhost:8080/${option.picture}`} />}
+                                            avatar={<Avatar alt={option.name} src={`https://chat-app-nbgl.onrender.com/${option.picture}`} />}
                                             label={option._id === currentChat.groupAdmin._id ? `${option.name} (Admin)` : option.name}
                                             variant='outlined'
                                             disabled={option._id === currentChat.groupAdmin._id}

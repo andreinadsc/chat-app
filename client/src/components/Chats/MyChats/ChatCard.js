@@ -14,7 +14,7 @@ const ChatCard = ({ chat, handlerClick }) => {
 
     const sender = getSender(chat.users, user);
     const title = !chat.isGroupChat ? sender?.name : chat.chatName;
-    const imgSrc = `http://localhost:8080/${!chat.isGroupChat ? sender?.picture : chat.groupPicture}`;
+    const imgSrc = `https://chat-app-nbgl.onrender.com/${!chat.isGroupChat ? sender?.picture : chat.groupPicture}`;
     const colorText = currentChat?._id === chat?._id ? 'primary.secondary' : 'text.secondary';
 
     useEffect(() => {

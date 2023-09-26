@@ -94,7 +94,7 @@ const NewGroupModal = ({ children }) => {
                                     return (
                                         options.map((option, index) =>
                                             <Chip key={option._id}
-                                                avatar={<Avatar alt={option.name} src={`http://localhost:8080/${option.picture}`} />}
+                                                avatar={<Avatar alt={option.name} src={`https://chat-app-nbgl.onrender.com/${option.picture}`} />}
                                                 label={option.name}
                                                 variant='outlined'
                                                 {...getTagProps({ index })}
@@ -104,7 +104,7 @@ const NewGroupModal = ({ children }) => {
                                 }}
                                 renderOption={(props, option) => (
                                     <Chip key={option._id}
-                                        avatar={<Avatar alt={option.name} src={`http://localhost:8080/${option.picture}`} />}
+                                        avatar={<Avatar alt={option.name} src={`https://chat-app-nbgl.onrender.com/${option.picture}`} />}
                                         label={option.name}
                                         variant='outlined'
                                         {...props}

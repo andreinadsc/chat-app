@@ -115,7 +115,7 @@ export default function ChatBox({ handleDrawer }) {
                                             }
                                             <Avatar
                                                 alt='picture'
-                                                src={`http://localhost:8080/${!currentChat.isGroupChat ? getSender(currentChat.users, user)?.picture : currentChat.groupPicture}`}
+                                                src={`https://chat-app-nbgl.onrender.com/${!currentChat.isGroupChat ? getSender(currentChat.users, user)?.picture : currentChat.groupPicture}`}
                                                 sx={{ width: 56, height: 56 }}
                                             />
                                             <Typography variant='h6' component='div' sx={{ flexGrow: 1, ml: 2 }}>
@@ -145,7 +145,7 @@ export default function ChatBox({ handleDrawer }) {
                                                             return <MessageLeft key={message._id}
                                                                 message={message.content}
                                                                 timestamp={timestamp}
-                                                                photoURL={`http://localhost:8080/${message.sender.picture}`}
+                                                                photoURL={`https://chat-app-nbgl.onrender.com/${message.sender.picture}`}
                                                                 displayName={message.sender.name}
                                                                 avatarDisp={true}
                                                             />

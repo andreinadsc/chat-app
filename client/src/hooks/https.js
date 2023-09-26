@@ -17,7 +17,7 @@ const useHttp = () => {
             }
         }
         try {
-            const response = await fetch(`http://localhost:8080/${requestConfig.url}`, {
+            const response = await fetch(`https://chat-app-nbgl.onrender.com/${requestConfig.url}`, {
                 method: requestConfig?.method || 'GET',
                 headers: requestConfig?.token ? { 
                     'Authorization': `Bearer ${requestConfig.token}`
